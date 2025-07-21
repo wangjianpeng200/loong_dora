@@ -1,0 +1,6 @@
+nodes:
+  - id: dora-openlong-udp
+    build: pip install -e ../../node-hub/dora-openlong-udp
+    path: dora-openlong-udp
+    outputs:
+      - arm_state
